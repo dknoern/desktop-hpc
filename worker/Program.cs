@@ -35,6 +35,7 @@ public class Worker
 
     static string GetFactors(long n)
     {
+        string s = n.ToString() + " = ";
         List<long> factors = new List<long>();
         while (!(n % 2 > 0))
         {
@@ -53,6 +54,6 @@ public class Worker
         {
             factors.Add(n);
         }
-        return n.ToString() + " = " + string.Join(" x ", factors);
+        return s + string.Join(" x ", factors);
     }
 }
