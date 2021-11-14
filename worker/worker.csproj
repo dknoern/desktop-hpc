@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.SQS" Version="3.7.1.40" />
-    <PackageReference Include="StackExchange.Redis" Version="2.2.50" />
   </ItemGroup>
 
 </Project>
