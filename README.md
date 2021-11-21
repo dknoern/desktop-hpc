@@ -31,6 +31,8 @@ Next, deploy the infrastructure to AWS:
 cdk deploy
 ```
 
+## Running
+
 After a few minutes the ECS fargate cluster should be ready to use.  Run the client:
 
 ```
