@@ -2,3 +2,4 @@ cdk.json
 cdk.out/
 */bin
 */obj
+.vscode/settings.json
