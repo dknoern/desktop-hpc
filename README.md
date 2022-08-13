@@ -28,15 +28,15 @@ cdk bootstrap aws://ACCOUNT-NUMBER/REGION
 Next, deploy the infrastructure to AWS:
 
 ```
-cdk deploy --app "dotnet run -p CDK/CDK.csproj"
+cdk deploy --app "dotnet run --project CDK/CDK.csproj"
 ```
 
 ## Running
 
-After a few minutes the ECS fargate cluster should be ready to use.  Run the client:
+After a few minutes the ECS Fargate cluster should be ready to use.  Run the client:
 
 ```
-dotnet run -p Client
+dotnet run --project Client
 ```
 
 You will be prompted for a number of integers starting with one trillion one to factor.  Try entering "1000".
